@@ -13,7 +13,7 @@ CM_max = omega_m * (1 + (PM_max/PM_max) + abs(8 - 4)/4);
 % Drive
 omega_c = 2.5; % [-]
 Pc_max = 200e3; % Watt
-P_c = 100e3; 
+P_c = 160e3; 
 C_c = omega_c*(1+P_c/Pc_max); 
 C_c_max = omega_c*(1+Pc_max/Pc_max); 
 
