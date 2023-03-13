@@ -6,4 +6,4 @@ t_end = 60;
 
 [time, wavef] = WaveGeneratorFnc(Hs, T, t_end);
 
-plot(time, wavef)
+plot(time, wavef) 
