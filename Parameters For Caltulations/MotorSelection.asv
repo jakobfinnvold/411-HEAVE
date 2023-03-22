@@ -6,9 +6,12 @@ torque_drum = -2500;
 
 i_gb = 1: 1 : 10; 
 
-for i = length(i_gb)
-    torque_gb = torque_drum/i_gb(i);
+for i = i_gb
+    torque_gb(i) = torque_drum/i_gb(i);
 end 
+
+% M3KP 280SMB 4 for ig=5
+
 
 
 
