@@ -10,7 +10,8 @@ for i = i_gb
     torque_gb(i) = torque_drum/i_gb(i);
 end 
 
-% M3KP 280SMB 4 for ig=5
+%% M3KP 280SMB 4 for ig=5
+% T-equivalent circuit parameters
 Rs = 0.04264; % From DC test
 
 Z_NL = 230.9/37.47;
@@ -29,7 +30,10 @@ X2 = 0.6 * X_LR_50Hz
 
 XM = X_NL - X1;
 
+w1 = 2 * 1500; % Polepairs x syncspeed
+wr = 2 * 1483; % polepairs x mechanical speed
 
+slip = (w1 - wr)/w1;
 
 
 
