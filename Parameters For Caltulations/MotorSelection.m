@@ -28,15 +28,15 @@ Z_NL = 230.9/37.47;
 R_NL = 3546/(37.47^2);
 X_NL = sqrt(Z_NL^2 - R_NL^2);
 
-Z_LR = 69.28/434.3;
-R_LR = 2603/(434.3^2);
+Z_LR = 64.87/375.6;
+R_LR = 2960/(375.6^2);
 Rr_prime = abs(R_LR - Rs); % reflected stator resistance 
 X_LR = sqrt(Z_LR^2 - R_LR^2);
 X_LR_50Hz = 50/12.5 * X_LR;
 
-% Using Design Class B Motor
-X1 = 0.4 * X_LR_50Hz; % Xs
-X2 = 0.6 * X_LR_50Hz; % Xr
+% Using Design Class A Motor
+X1 = 0.5 * X_LR_50Hz; % Xs
+X2 = 0.5 * X_LR_50Hz; % Xr
 
 XM = X_NL - X1; % Lm
 
