@@ -1,8 +1,8 @@
 clear; close all; clc; 
 
-v_drum_max = 130; % rad/s
+v_drum_max = 144; % rad/s
 
-torque_drum = -2500; 
+torque_drum = 2000; 
 
 i_gb = 1: 1 : 10; 
 
