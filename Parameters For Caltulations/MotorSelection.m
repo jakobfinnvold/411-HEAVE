@@ -9,6 +9,7 @@ i_gb = 1: 1 : 10;
 for i = i_gb
     torque_gb(i) = torque_drum/i_gb(i);
 end 
+psi_ref = 20*P_N/(sqrt(2)*pi*n_p*I_N*n_N);
 
 %% M3KP 280SMB 4 for ig=5
 T_N = 579 % Nominal torque [Nm]
