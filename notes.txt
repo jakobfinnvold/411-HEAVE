@@ -1,0 +1,6 @@
+Finding equivalent inertia. J_hat, combine all inertias till u get mass*acc = sum of forces
+Newtons equations - acc to one side. acc drum = gb*acc_motor. 
+
+drum frictoin + drag force = b
+linearlize drag around a point - how big is drag compered to friction at motor/drum. Neglect?
+b drum to motor side. Assumption here -> disregard drag. 
