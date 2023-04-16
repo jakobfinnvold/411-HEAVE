@@ -4,13 +4,13 @@ clear; close all; clc;
 omega_m = 1.5;
 PM_max = 200e3;
 poleselect = [2; 4; 6; 8]; % Number of poles
-n_p = poleselect(2,1);
-PM = 90e3;
+n_p = poleselect(3,1);
+PM = 75e3;
 CM = omega_m * (1 + (PM/PM_max) + abs(n_p - 4)/4); 
 CM_max = omega_m * (1 + (PM_max/PM_max) + abs(8 - 4)/4); 
 
 
-% Drive
+%% Drive
 omega_c = 2.5; % [-]
 Pc_max = 200e3; % Watt
 P_c = 75e3; 
